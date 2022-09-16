@@ -1,4 +1,4 @@
-import MoonIcon from "../assests/icons";
+import { BsMoonFill } from "react-icons/bs";
 
 const Header = () => {
   return (
@@ -6,8 +6,8 @@ const Header = () => {
       <div className="container">
         <div className="text-wrapper">
           <h2>Markdown code snippts</h2>
-          <button>
-            <MoonIcon />
+          <button className="icon">
+            <BsMoonFill fill="#88d1ef" />
           </button>
         </div>
       </div>

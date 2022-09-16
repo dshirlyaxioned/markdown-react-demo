@@ -15,18 +15,22 @@ const MarkdownContent = () => {
   }, []);
 
   return (
-    <div>
-      <Markdown
-        options={{
-          overrides: {
-            Code: {
-              component: Code,
-            },
-          },
-        }}
-      >
-        {content}
-      </Markdown>
+    <div className="markdown-section">
+      <div className="container">
+        <div className="post-wrapper">
+          <Markdown
+            options={{
+              overrides: {
+                Code: {
+                  component: Code,
+                },
+              },
+            }}
+          >
+            {content}
+          </Markdown>
+        </div>
+      </div>
     </div>
   );
 };

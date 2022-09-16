@@ -16,12 +16,24 @@ code {
 }
 
 .container {
-  max-width: 50rem;
+  max-width: 60rem;
   margin: 0 auto;
   padding: 0 0.5rem 0 0.5rem;
   display: flex;
   align-items: center;
   height: 100%;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+}
+
+button.icon {
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 
 /* header */
@@ -50,6 +62,22 @@ header .logo {
   align-items: center;
 }
 
-header h2 {
-  margin-left: 0.5rem;
+/* marksown section */
+
+.markdown-section {
+  margin: 4rem 0;
+}
+.post-wrapper {
+  width: 100%;
+}
+
+/* Code */
+.code {
+  position: relative;
+}
+.code .copy-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 5;
 }

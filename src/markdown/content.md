@@ -1,12 +1,28 @@
-##1. Sort an Array
+## 1. Sort an Array
 
-<Code>//strings const names = ["Seema", "Rekha", "Jaya"]; names.sort(); //['Jaya', 'Rekha', 'Seema' ]
-//Numbers const numbers = [101, 8, 87]; numbers.sort((a, b) => { return a - b; }); //[ 8, 87, 101 ]</Code>
+<Code language='javascript'>
+//strings 
+const names = ["Seema", "Rekha", "Jaya"]; names.sort(); 
+//['Jaya', 'Rekha', 'Seema' ]
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla velit sit amet lectus tincidunt, quis suscipit tortor maximus. Vestibulum facilisis sit amet tortor sed vestibulum.
+//Numbers
+const numbers = [101, 8, 87]; numbers.sort((a, b) => { return a - b; });
+//[ 8, 87, 101 ]
+</Code>
 
-  Sed nec egestas leo. Nam tristique tincidunt venenatis. Vestibulum vel justo tincidunt, aliquet sapien vitae, vestibulum ex.
+## 2. Loop through an array
 
-  Donec commodo, nunc in posuere condimentum, diam est gravida ex, quis varius nisi neque et nunc.
+<Code language='javascript'>
+const cars = ["Ford", "BMW", "Audi" ] 
+for (let car of cars) 
+{ console.log(car) }
+</Code>
 
-- Nulla facilisi. Mauris eleifend felis a purus pretium egestas
+## 3. Replace a string
+
+<Code language='javascript'>
+const string = "You are awesome." 
+const replacedString = string.replace("You", "We")
+console.log(replacedString)
+//Output: "We are awesome"
+</Code>

@@ -1,7 +1,6 @@
 import Header from "./components/Header";
 import MarkdownContent from "./components/MarkdownContent";
 
-
 function App() {
   return (
     <div>
